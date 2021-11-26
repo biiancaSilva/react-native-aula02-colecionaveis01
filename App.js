@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/stack';
-import Inicial from './src/views/inicial/Inicial';
+import inicial from './src/views/inicial/inicial';
 import sobreApp from './src/views/sobreApp/sobreApp';
 import detalhes from './src/views/detalhes/detalhes';
 import historia from './src/views/historia/historia';
@@ -17,8 +17,8 @@ return (
 <Stack.Navigator>
 
 <Stack.Screen
-name="Inicial"
-component={Inicial}
+name="inicial"
+component={inicial}
 options={
 { cardStyle: styles.screenInicial,
 headerStyle: {backgroundColor: '#14417b'},
